@@ -11,6 +11,7 @@ spec:
       name: nginx-logs
   - image: almalinux
     name: alma
+    command: ["sleep","1000"]
     volumeMounts:
     - mountPath: /mnt/nginx-logs
       name: nginx-logs 
