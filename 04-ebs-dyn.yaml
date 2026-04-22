@@ -3,5 +3,6 @@ kind: StorageClass
 metadata:
   name: roboshop 
 provisioner: ebs.csi.aws.com
+reclaimPolicy: Retain
 volumeBindingMode: WaitForFirstConsumer 
 
